@@ -1,0 +1,110 @@
+/* nav styles */
+nav {
+  background-color: grey;
+  padding: 10px;
+}
+
+nav h1 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  margin-left: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+li a:hover {
+  color: darkblue;
+}
+
+.search-button,
+.reset-button {
+  background-color: greenyellow;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-button,
+.reset-button {
+  background-color: greenyellow;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+/* player cards*/
+.player-image {
+  max-width: 150px;
+  height: auto;
+}
+
+.player {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 10px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.player h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.player p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+/* button looks */
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-container button {
+  margin: 5px;
+  background-color: greenyellow;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.button-container button:hover {
+  background-color: darkblue;
+}
+
+body {
+  background-color: bisque;
+}
